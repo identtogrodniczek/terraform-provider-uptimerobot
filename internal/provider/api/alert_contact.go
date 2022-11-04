@@ -14,10 +14,8 @@ var alertContactType = map[string]int{
 	"sms":         1,
 	"e-mail":      2,
 	"twitter":     3,
-	"twitter-dm":  3,
 	"boxcar":      4,
 	"web-hook":    5,
-	"webhook":     5,
 	"pushbullet":  6,
 	"zapier":      7,
 	"pro-sms":     8,
@@ -30,7 +28,6 @@ var alertContactType = map[string]int{
 	"telegram":    18,
 	"ms-teams":    20,
 	"google-chat": 21,
-	"hangouts":    21,
 	"discord":     23,
 }
 var AlertContactType = mapKeys(alertContactType)
